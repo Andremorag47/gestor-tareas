@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header id="encabezado">
+        <h1>SISTEMA DE GESTIÓN DE TAREAS</h1>
+    </header>
+    <div id="contenido-principal">
+        <!-- Sección de agregar tarea -->
+        <div id="agregar-tarea">
+            <h2>Agregar Tarea</h2>
+            <input type="text" id="titulo" placeholder="Título">
+            <input type="text" id="descripcion" placeholder="Descripción">
+            <button onclick="agregarTarea()">Agregar</button>
+        </div>
+
+        <!-- Sección de la tabla de tareas -->
+        <div id="tareas-list">
+            <!-- La tabla se generará dinámicamente con JavaScript -->
+        </div>
+
+        <!-- Sección de datos de contacto -->
+        <footer id="contacto">
+            <h2>Contacto</h2>
+            <p>Email: andres.moagui@gmail.com</p>
+            <p>Teléfono: +57 3118598197</p>
+            <p>Linkedin: www.linkedin.com/in/andres-felipe-mora-aguilar-415423209<p>
+        </footer>
+    </div>
+</body>
+</html>

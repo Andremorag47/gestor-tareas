@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+#encabezado {
+    background-color: #003366; /* Azul oscuro formal */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#encabezado h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* Contenedor principal */
+#contenido-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sección de agregar tarea */
+#agregar-tarea {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#agregar-tarea input {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#agregar-tarea button {
+    padding: 10px 20px;
+    background-color: #004080; /* Azul oscuro más vivo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#agregar-tarea button:hover {
+    background-color: #002d5a; /* Azul más intenso */
+}
+
+/* Sección de la tabla de tareas */
+#tareas-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+.tabla-tareas {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-tareas th,
+.tabla-tareas td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-tareas th {
+    background-color: #003366;
+    color: white;
+}
+
+/* Botones de acción */
+.btn-marcar {
+    background-color: #004080; /* Azul oscuro más vivo */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-marcar:hover {
+    background-color: #002d5a;
+}
+
+.btn-desmarcar {
+    background-color: #336699; /* Azul grisáceo */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-desmarcar:hover {
+    background-color: #1f4e7a;
+}
+
+.btn-editar {
+    background-color: #0066cc; /* Azul formal */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-editar:hover {
+    background-color: #004c99;
+}
+
+.btn-eliminar {
+    background-color: #cc3300; /* Rojo sobrio */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-eliminar:hover {
+    background-color: #992600;
+}
+
+/* Sección de contacto */
+#contacto {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
